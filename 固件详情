@@ -1,0 +1,14 @@
+1、源码：
+https://github.com/immortalwrt/immortalwrt/tree/openwrt-21.02
+2、添加feed源：
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
+3、针对虚拟机专用：
+取消自动挂载、取消samba、取消磁盘管理、开启qemu-ga
+4、包含程序
+a.passwall2
+b.ssrp
+c.ddns-go
+d.mosdns
+e.socat
+f.高级重启
